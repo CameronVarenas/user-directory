@@ -40,16 +40,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <main className='content'>
+        <section className='content'>
           <header class='header'>
           <h3 id='home'>Home</h3>
           </header>
           <Flashcard flashCards={this.state.flashCards} cardNum={this.state.cardNum}/>
-          <section>
+          <section className='buttons'>
             <Previous previousCard={this.previousCard}/>
             <Next nextCard={this.nextCard}/>
           </section>
-        </main>
+        </section>
       </div>
     );
   }

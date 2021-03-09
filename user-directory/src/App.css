@@ -52,9 +52,65 @@
 }
 
 .flash-card {
-  padding-top: 10vh;
-  height: 500px;
+  height: 400px;
   width: 1000px;
-  background-color: grey;
+  background-color: white;
+  top: 20vh;
+  position: relative;
 }
 
+.content {
+  background-color: rgb(32, 32, 32);
+  height: 100vh;
+  width: 100%;
+}
+
+.text {
+  margin-left: 75px;
+  padding-top: 8px;
+}
+
+.name {
+  margin-left: 75px;
+  font-size: 30px;
+  border-bottom: 3px solid rgb(0, 162, 255);
+  padding-bottom: 3px;
+  display: inline-block;
+}
+
+.from {
+  margin-left: 75px;
+  padding-top: 20px;
+}
+
+.fav-movies {
+  margin-left: 75px;
+  padding-top: 30px;
+  font-weight: 700;
+}
+
+.movies {
+  margin-left: 100px;
+  padding-top: 8px;
+  font-weight: 600;
+}
+
+.counter {
+  font-weight: 700;
+  text-align: right;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.btns {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  position: relative;
+  top: 200px;
+  margin: 0px 100px 0px 100px;
+}

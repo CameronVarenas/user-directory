@@ -5,7 +5,7 @@ function Previous(props) {
 
     return (
         <div>
-            <button onClick={props.previousCard}>{previous}</button>
+            <h1 className='btns' onClick={props.previousCard}>{previous}</h1>
         </div>
     )
 }
